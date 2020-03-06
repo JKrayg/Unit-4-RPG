@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/CSS/reset.css">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <title>RPG Homework</title>
+</head>
+<body>
+    <div id="header">
+        <h1>Spongebob RPG!</h1>
+    </div>
+    <div id="burgerRoach">
+        <img src="assets/images/burgerRoach.gif" style="width: 75px;height: 75px;">
+    </div>
+
+    <div class="container">
+        <div id="spongebobCon">
+            <p>Spongebob Squarepants</p>
+            <img src="assets/images/spongebob1.gif" style="width: 150px;height: 150px;">
+            <p>
+                <span id="spongebobhealth"></span>
+            </p>
+        </div>
+        <div id="patrickCon">
+            <p>Patrick Star</p>
+            <img src="assets/images/patrick.gif" style="width: 150px;height: 150px;">
+            <p>
+                <span id="patrickhealth"></span>
+            </p>
+        </div>
+        <div id="squidwardCon">
+            <p>Squidward Tentacles</p>
+            <img src="assets/images/squidward.gif" style="width: 150px;height: 150px;">
+            <p>
+                <span id="squidwardhealth"></span>
+            </p>
+        </div>
+        <div id="planktonCon">
+            <p>Sheldon J. Plankton</p>
+            <!--Pretty mad I couldnt find a similar Plankton GIF-->
+            <img src="assets/images/plankton.gif" style="width: 150px;height: 150px;">
+            <p>
+                <span id="planktonhealth"></span>
+            </p>
+        </div>
+    </div>
+
+    <div class="attackarea">
+        <h2>- Your Character -
+            <div id="characterposition"></div>
+        </h2>
+        <h2>- Enemies available to attack -
+            <div id="enemiesposition"></div>
+        </h2>
+        <h2>- Fight Section -
+            <div id="attackbtn">
+                <button id="event-btn">Attack!</button>
+            </div>
+        </h2>
+        <h2>- Defender -
+            <div id="currentenemy"></div>
+        </h2>
+    </div>
+        
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>

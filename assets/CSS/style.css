@@ -1,0 +1,29 @@
+#header {
+    text-align: center;
+    font-size: 40px;
+}
+
+#spongebobCon, #patrickCon, #squidwardCon, #planktonCon {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.container {
+    margin: 10px;    
+}
+
+#burgerRoach {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.attackarea {
+    font-size: 20px;
+    margin: 10px;
+}
+
+
+
+
